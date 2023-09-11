@@ -84,7 +84,7 @@ const menu = [
 const sectionCenter = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
 
-// display menu list
+// display menu
 const displayMenuItems = (menuItems) => {
   let displayMenu = menuItems.map((item) => {
     return `<article class="menu-item">
